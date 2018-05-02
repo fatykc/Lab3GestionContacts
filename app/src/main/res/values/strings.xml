@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab3 KACI et MOUSTAOUI </string>
+    <string name="titre">GESTION DES CONTACTS</string>
+    <string name="insertion">INSERER NOUVEAU CONTACT</string>
+    <string name="lister">LISTER TOUS LES CONTACTS</string>
+    <string name="chercher">CHERCHER UN CONTACT</string>
+    <string name="effacer">EFFACER UN CONTACT</string>
+    <string name="changer">CHANGER LE TELEPHONE</string>
+    <string name="appeler">APPELER UN CONTACT</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="tel">Téléphone</string>
+    <string name="inserer">INSERER</string>
+    <string name="liste">LISTE DES CONTACTS</string>
+    <string name="cherbt">Chercher</string>
+    <string name="effacebt">Effacer</string>
+    <string name="id">Id</string>
+    <string name="modifier">Modifer le téléphone</string>
+    <string name="appeller">APPEL CONTACT</string>
+    <string name="telephoner">Appeler </string>
+    <string name="Liste">LISTE DE TOUS LES CONTACTS</string>
+    <string name="lid">ID</string>
+
+</resources>

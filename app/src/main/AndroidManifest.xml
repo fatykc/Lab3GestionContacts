@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatiha.lab3gestioncontacts">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.Inserer_Contact" />
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.Lister_Contacts" />
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.Chercher_contact" />
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.ModifierTelephone" />
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.Effacer_Contact" />
+        <activity android:name="com.example.fatiha.lab3gestioncontacts.Appel_Contact"></activity>
+    </application>
+
+</manifest>
